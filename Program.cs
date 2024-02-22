@@ -23,9 +23,9 @@ class Program
         List<ExpiredMedicine> expiredMedicine = RowsManager.GetExpiredMedicine(rows);
 
         if(expiredMedicine.Any()){
-            //bool wasEmailSuccess = EmailSender.SendExpiredMedicineEmail(expiredMedicine);
+            bool wasEmailSuccess = EmailSender.SendExpiredMedicineEmail(expiredMedicine);
             
-            if(true)
+            if(wasEmailSuccess)
                 _googleSheetManager.UpdateMedicineStatus(expiredMedicine);
 
         }

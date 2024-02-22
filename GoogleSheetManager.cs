@@ -9,7 +9,7 @@ namespace MedicineSheet
     {
         private readonly SheetsService _sheetsService;
         private readonly string _spreadsheetId;
-        private readonly string SheetName = "MedicineRegister_test";
+        private readonly string SheetName = "MedicineRegister";
         private string ReadRange = "!A2:F";
         public GoogleSheetManager(GoogleCredential googleCredential, string applicationName, string spreadsheetId) {
 

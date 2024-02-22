@@ -28,3 +28,4 @@
 /Users/ernestopetit/Documents/Projects/Raspberry/MedicineSheet/bin/Debug/net8.0/MimeKit.dll
 /Users/ernestopetit/Documents/Projects/Raspberry/MedicineSheet/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
 /Users/ernestopetit/Documents/Projects/Raspberry/MedicineSheet/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/ernestopetit/Documents/Projects/Raspberry/MedicineSheet/obj/Debug/net8.0/MedicineSheet.sourcelink.json
