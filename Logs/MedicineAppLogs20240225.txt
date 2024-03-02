@@ -1,0 +1,7 @@
+[ 25-02-2024 00:42:46.912 +01:00 INF] Starting the login process with Google.
+[ 25-02-2024 00:42:47.043 +01:00 INF] Login succes.
+[ 25-02-2024 00:42:47.048 +01:00 INF] Getting values from google spreadsheets
+[ 25-02-2024 00:42:48.372 +01:00 INF] Medicines gotten successfully
+[ 25-02-2024 00:42:48.373 +01:00 INF] Start looping through all the rows to get the only expired medicines.
+[ 25-02-2024 00:42:48.382 +01:00 INF] Expired medicine looping finished
+[ 25-02-2024 00:42:48.383 +01:00 INF] There are not expired medicines to update

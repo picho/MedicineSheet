@@ -45,6 +45,26 @@
             "MailKit": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -58,12 +78,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
+              "version": "[8.0.1, 8.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-arm64",
+              "version": "[8.0.1, 8.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-arm64",
+              "version": "[8.0.1, 8.0.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-arm64": {
+          "#import": []
         }
       }
     }

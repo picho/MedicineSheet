@@ -2,17 +2,23 @@ using MimeKit;
 using MailKit.Net.Smtp;
 using System.Text;
 using System.Data;
+using Serilog;
 
 namespace MedicineSheet
 {
     public static class EmailSender
     {
+        private static readonly ILogger _log = Log.ForContext(typeof(EmailSender));
+
         public static bool SendExpiredMedicineEmail(IEnumerable<ExpiredMedicine> expiredMedicines) 
         {
             bool wasEmailSuccess = true;
             using var smtp = new SmtpClient();
 
             try {
+                
+                _log.Information("Stat sending email proces");
+
                 using var email = new MimeMessage();
 
                 email.From.Add(new MailboxAddress("Medicine App", "familia.petitbarragan@gmail.com"));
@@ -34,6 +40,7 @@ namespace MedicineSheet
                 smtp.Send(email);
             }
             catch(Exception ex) {
+                _log.Error(ex, ex.Message);
                 Console.WriteLine(ex.Message);
                 wasEmailSuccess = false;
             }
