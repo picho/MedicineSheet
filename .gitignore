@@ -265,3 +265,4 @@ FakesAssemblies/
 /client_secrets.json
 /.DS_Store
 bin/
+bin/Debug/net8.0
