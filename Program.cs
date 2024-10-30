@@ -1,6 +1,4 @@
 ﻿using Google.Apis.Auth.OAuth2;
-using Google.Apis.Sheets.v4;
-using Google.Apis.Sheets.v4.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;

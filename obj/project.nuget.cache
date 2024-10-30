@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NL0xLF3VRmbME1RmWfA3fzYUeJMp0jyS8e6x2TBDLGSDJnavxM5FtWewG8Rse91Pn5VquiEYtCHvJituG8rfeA==",
+  "dgSpecHash": "VXRMp8vWSBs+fusah/Tnd3+W1rnkXrWriDC1XMHnY/rTSvV+FRQXPPDSFbpL8kyyEUANLiR+w1KH/+D859yCdQ==",
   "success": true,
   "projectFilePath": "/Users/ernestopetit/Documents/Projects/Raspberry/MedicineSheet/MedicineSheet.csproj",
   "expectedPackageFiles": [
@@ -55,10 +55,7 @@
     "/Users/ernestopetit/.nuget/packages/system.security.cryptography.pkcs/7.0.3/system.security.cryptography.pkcs.7.0.3.nupkg.sha512",
     "/Users/ernestopetit/.nuget/packages/system.text.encoding.codepages/7.0.0/system.text.encoding.codepages.7.0.0.nupkg.sha512",
     "/Users/ernestopetit/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/Users/ernestopetit/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/Users/ernestopetit/.nuget/packages/microsoft.netcore.app.runtime.linux-arm64/8.0.1/microsoft.netcore.app.runtime.linux-arm64.8.0.1.nupkg.sha512",
-    "/Users/ernestopetit/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-arm64/8.0.1/microsoft.aspnetcore.app.runtime.linux-arm64.8.0.1.nupkg.sha512",
-    "/Users/ernestopetit/.nuget/packages/microsoft.netcore.app.host.linux-arm64/8.0.1/microsoft.netcore.app.host.linux-arm64.8.0.1.nupkg.sha512"
+    "/Users/ernestopetit/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

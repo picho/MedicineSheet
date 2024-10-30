@@ -264,3 +264,4 @@ FakesAssemblies/
 
 /client_secrets.json
 /.DS_Store
+bin/
